@@ -191,11 +191,11 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
   -- Decrease volume and beep.
   , ((0, 0x1008FF11),
-     spawn "amixer -q set Master 10%- && aplay /usr/share/pommed/click.wav")
+     spawn "amixer -q set Master 5%- && aplay /usr/share/pommed/click.wav")
 
   -- Increase volume and beep.
   , ((0, 0x1008FF13),
-     spawn "amixer -q set Master 10%+ && aplay /usr/share/pommed/click.wav")
+     spawn "amixer -q set Master 5%+ && aplay /usr/share/pommed/click.wav")
 
   -- Audio previous.
   , ((0, 0x1008FF16),
