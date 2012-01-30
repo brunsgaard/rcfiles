@@ -3,7 +3,8 @@
 DIR=`pwd`
 
 echo Installing vim config...
-ln -Tfs $DIR/{vimrc,vim} $HOME/{.vimrc,.vim}
+ln -Tfs $DIR/vimrc $HOME/.vimrc
+ln -Tfs $DIR/vim $HOME/.vim
 mkdir -p /var/tmp/vim/{swap,undo}
 
 echo Installing zsh config...
