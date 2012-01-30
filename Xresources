@@ -1,13 +1,9 @@
-
-
-
 !!Do not display urxvt scrollbar
 URxvt.scrollBar: off
 
 !!Font settings
 URxvt.font: xft:DejaVu Sans Mono:pixelsize=13
 URxvt.boldFont: xft:DejaVu Sans Mono:style=bold:pixelsize=13
-
 
 !!Bell for irssi etc.
 urxvt.urgentOnBell: true
@@ -17,11 +13,7 @@ URxvt.perl-ext-common:  default,matcher
 URxvt.urlLauncher:      /opt/google/chrome/chrome
 URxvt.matcher.button:   1
 
-
-
-
 !!  Source: http://ethanschoonover.com/solarized
-
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
 !!SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      RGB         HSB
