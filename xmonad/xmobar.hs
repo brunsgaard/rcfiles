@@ -1,0 +1,1 @@
+/home/jobr/.xmonad/xmobar.hs
