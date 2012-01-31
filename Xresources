@@ -2,8 +2,7 @@
 URxvt.scrollBar: off
 
 !!Font settings
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=13
-URxvt.boldFont: xft:DejaVu Sans Mono:style=bold:pixelsize=13
+URxvt.font: xft:Inconsolata:pixelsize=13
 
 !!Bell for irssi etc.
 urxvt.urgentOnBell: true

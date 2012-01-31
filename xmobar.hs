@@ -1,7 +1,7 @@
 -- vim: syn=haskell
 
 
-Config { font = "xft:Dejavu Sans Mono:pixelsize=11"
+Config { font = "xft:inconsolata:pixelsize=10.5"
        , bgColor = "#002b36"
        , fgColor = "#657b83"
        , position = Top
