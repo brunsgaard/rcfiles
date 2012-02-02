@@ -9,6 +9,7 @@ ZSH_THEME="arrow"
 
 # Example aliases
 alias l="ls -l"
+alias nzbadd="/opt/sabnzbd/addnzb.sh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion

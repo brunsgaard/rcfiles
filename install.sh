@@ -15,6 +15,7 @@ echo Installing zsh config...
 ln -Tfs $DIR/zshrc $HOME/.zshrc
 
 echo Installing xmonad and xmobar config...
+mkdir -p $HOME/.xmonad
 ln -Tfs $DIR/xmobar.hs $HOME/.xmonad/xmobar.hs
 ln -Tfs $DIR/xmonad.hs $HOME/.xmonad/xmonad.hs
 
