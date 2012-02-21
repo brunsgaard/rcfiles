@@ -29,4 +29,6 @@ chsh -s `which zsh`
 echo Installing git config...
 ln -Tfs $DIR/gitignore_global $HOME/.gitignore_global
 
-echo You must manually move muttrc to ~/.muttrc and edit the password in the file
+echo Installing mutt config...
+ln -Tfs $DIR/muttrc $HOME/.muttrc
+
