@@ -20,6 +20,7 @@ ln -Tfs $DIR/xmobar.hs $HOME/.xmonad/xmobar.hs
 ln -Tfs $DIR/xmonad.hs $HOME/.xmonad/xmonad.hs
 
 echo Installing zsh config...
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ln -Tfs $DIR/zshrc $HOME/.zshrc
 
 echo Setting default shell to zsh...
@@ -28,4 +29,4 @@ chsh -s `which zsh`
 echo Installing git config...
 ln -Tfs $DIR/gitignore_global $HOME/.gitignore_global
 
-echo All done!
+echo You must manually move muttrc to ~/.muttrc and edit the password in the file

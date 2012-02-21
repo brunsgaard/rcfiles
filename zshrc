@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+unsetopt correct_all
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -9,7 +10,11 @@ ZSH_THEME="arrow"
 
 # Example aliases
 alias l="ls -l"
-alias nzbadd="/opt/sabnzbd/addnzb.sh"
+alias remoteirssi="export AUTOSSH_POLL=300 ;autossh -M 20000 -t qwa.dk 'screen -x -R -D -U'"
+alias sudo='nocorrect sudo'
+alias dikuSshOracleDbTunnel='ssh -f -N -L 1521:dbw.diku.dk:1521 msn378@brok.diku.dk'
+alias qwapsqltunnel='ssh -f -N -L 5432:localhost:5432 qwa.dk'
+
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
