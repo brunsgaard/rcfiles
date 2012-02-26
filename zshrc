@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-unsetopt correct_all
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -38,6 +37,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+unsetopt correct_all
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/mosml/bin:/usr/bin/vendor_perl:/usr/bin/core_perl
