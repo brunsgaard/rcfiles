@@ -167,7 +167,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   -- Launch dmenu
   -- Use this to launch programs without a key binding.
   , ((modMask, xK_p),
-     spawn "dmenu_run -nb 'black' -nf 'white'")
+     spawn "dmenu_run -nb '#002b36' -nf '#657b83'")
 
   -- Launch the Google Chrome browser
   , ((modMask .|. shiftMask, xK_o),
